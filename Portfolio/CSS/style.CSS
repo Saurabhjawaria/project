@@ -1,0 +1,53 @@
+@import 'utilities.css'
+:root{
+    --primary:#3DCFD3;
+    --Dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:# F2F2F2;
+}
+bodty
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:  border-box;
+    -webkit-font-smoothing:antialiased;
+}
+
+header{
+    background: var(--dark);
+}
+.container{
+    max-width:1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+header nav .left a{
+    color:var(--pure);
+    text-decoration: none;
+    margin-right:2rem;
+    text-transform:uppercase;
+    transition:all .3s ease;
+    -webkit-transition:all .3s ;
+    -moz-transition:all .3s ;
+    -ms-transition:all .3s ;
+    -o-transition:all .3s ;
+}
+header nav .left a:hover{
+    color:var(--primary);
+}
+
+
+
+header nav {
+    padding: 2rem 0;
+}
+
+header nav .branding{
+    margin-right:3rem;
+}
+
+.hero .left img{
+    width: 100px;
+}
